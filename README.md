@@ -44,20 +44,3 @@ cd ~/ros2_ws
 colcon build --packages-select orbslam3
 source install/setup.bash
 
-##  Running Multi-Agent SLAM
-
-First, ensure image topics from your drones are being published to:
-
-    /Alpha/image_raw
-
-    /Bravo/image_raw
-
-    /Charlie/image_raw
-
-Then launch all SLAM nodes:
-
-ros2 launch orbslam3 all_drones_orbslam3.launch.py
-
-Use the following command to extract the vocabulary file:
-
-tar -xzvf vocabulary/ORBvoc.txt.tar.gz
