@@ -10,24 +10,6 @@ This repository contains a ROS2 wrapper for ORB-SLAM3 extended to support multip
 - Optional Pangolin viewer support
 - Saves trajectory to `KeyFrameTrajectory_<agent>.txt` on shutdown
 
-## Repository Structure
-
-rbslam3_ros2/
-├── CMakeLists.txt
-├── package.xml
-├── launch/
-│ └── all_drones_orbslam3.launch.py
-├── config/
-│ └── monocular/
-│ ├── TUM1.yaml
-│ └── Tello.yaml
-├── src/
-│ └── monocular/
-│ ├── mono.cpp
-│ └── monocular-slam-node.cpp
-├── vocabulary/
-│ └── ORBvoc.txt
-
 
 ## Dependencies
 
