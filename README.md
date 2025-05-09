@@ -19,11 +19,11 @@ This repository contains a ROS2 wrapper for ORB-SLAM3 extended to support multip
 - `cv_bridge`
 - ORB-SLAM3 core (must be built separately)
 
-## Build Instructions
+## Build and Run Instructions
 
 ```
 cd ~/ros2_ws
 colcon build --packages-select orbslam3
 source install/setup.bash
+ros2 launch orbslam3 all_drones_orbslam3.launch.py
 ```
-
