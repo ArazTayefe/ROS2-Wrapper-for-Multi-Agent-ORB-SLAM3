@@ -21,8 +21,9 @@ This repository contains a ROS2 wrapper for ORB-SLAM3 extended to support multip
 
 ## Build Instructions
 
-```bash
+```
 cd ~/ros2_ws
 colcon build --packages-select orbslam3
 source install/setup.bash
+```
 
