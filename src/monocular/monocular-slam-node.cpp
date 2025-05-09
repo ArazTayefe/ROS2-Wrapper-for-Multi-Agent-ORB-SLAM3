@@ -20,6 +20,10 @@ MonocularSlamNode::~MonocularSlamNode()
 {
     // Stop all threads
     m_SLAM->Shutdown();
+    
+    std::string ns = this->get_namespace();  // e.g., "/alpha"
+    std::string output_file = "KeyFrameTrajectory" + ns + ".txt";
+    std::replace(output_file.begin(), output_file.end(), '/', '_'); // make filename valid
 
     // Save camera trajectory
     m_SLAM->SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
