@@ -16,7 +16,7 @@ This repository contains a ROS2 wrapper for ORB-SLAM3 extended to support multip
 - ROS2 Humble or newer
 - OpenCV ≥ 4
 - Pangolin (optional for visualization)
-- `cv_bridge`
+- cv_bridge
 - ORB-SLAM3 core (must be built separately)
 
 ## Build and Run Instructions
