@@ -27,3 +27,7 @@ colcon build --packages-select orbslam3
 source install/setup.bash
 ros2 launch orbslam3 all_drones_orbslam3.launch.py
 ```
+
+## Repository Origin
+
+This repository is based on and originally forked from the excellent work by zang09/ORB_SLAM3_ROS2.
