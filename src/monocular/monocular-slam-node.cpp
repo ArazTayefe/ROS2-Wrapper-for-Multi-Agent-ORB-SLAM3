@@ -24,6 +24,8 @@ MonocularSlamNode::~MonocularSlamNode()
     std::string node_name = this->get_name();  // e.g., "alpha"
     std::string output_file = "KeyFrameTrajectory_" + node_name + ".txt";
 
+    m_SLAM->SaveKeyFrameTrajectoryTUM(output_file);
+
 }
 
 void MonocularSlamNode::GrabImage(const ImageMsg::SharedPtr msg)
