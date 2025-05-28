@@ -8,11 +8,10 @@ def generate_launch_description():
         Node(
             package='orbslam3',
             executable='mono',
-            name='orbslam3_alpha',
-            namespace='/alpha',
+            name='alpha',
             parameters=[
                 {'vocab_path': '/home/walle/ros2_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt'},
-                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/TUM1.yaml'},
+                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/Tello.yaml'},
                 {'use_viewer': False}
             ],
             remappings=[
@@ -22,11 +21,10 @@ def generate_launch_description():
         Node(
             package='orbslam3',
             executable='mono',
-            name='orbslam3_bravo',
-            namespace='/bravo',
+            name='bravo',
             parameters=[
                 {'vocab_path': '/home/walle/ros2_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt'},
-                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/TUM1.yaml'},
+                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/Tello.yaml'},
                 {'use_viewer': False}
             ],
             remappings=[
@@ -36,11 +34,10 @@ def generate_launch_description():
         Node(
             package='orbslam3',
             executable='mono',
-            name='orbslam3_charlie',
-            namespace='/charlie',
+            name='charlie',
             parameters=[
                 {'vocab_path': '/home/walle/ros2_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt'},
-                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/TUM1.yaml'},
+                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/Tello.yaml'},
                 {'use_viewer': False}
             ],
             remappings=[
