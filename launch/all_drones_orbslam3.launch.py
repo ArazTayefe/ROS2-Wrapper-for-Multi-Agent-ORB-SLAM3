@@ -11,7 +11,7 @@ def generate_launch_description():
             name='alpha',
             parameters=[
                 {'vocab_path': '/home/walle/ros2_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt'},
-                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/Tello.yaml'},
+                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/TUM1.yaml'},
                 {'use_viewer': False}
             ],
             remappings=[
@@ -24,7 +24,7 @@ def generate_launch_description():
             name='bravo',
             parameters=[
                 {'vocab_path': '/home/walle/ros2_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt'},
-                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/Tello.yaml'},
+                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/TUM1.yaml'},
                 {'use_viewer': False}
             ],
             remappings=[
@@ -37,7 +37,7 @@ def generate_launch_description():
             name='charlie',
             parameters=[
                 {'vocab_path': '/home/walle/ros2_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt'},
-                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/Tello.yaml'},
+                {'config_path': '/home/walle/ros2_ws/src/orbslam3_ros2/config/monocular/TUM1.yaml'},
                 {'use_viewer': False}
             ],
             remappings=[
