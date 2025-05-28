@@ -23,8 +23,6 @@ This repository contains a ROS2 wrapper for ORB-SLAM3 extended to support multip
 
 mocap4r2 is a ROS2 package designed to integrate motion capture systems with ROS2. It provides tools and nodes to interface with motion capture systems, allowing for real-time tracking and data integration in ROS2 applications. This project uses mocap4r2 to integrate OptiTrack Flex 13 cameras.
 
-![Control using motion capture feedback](images/control_node.png)
-
 1. Ensure your motion capture cameras are set up and calibrated correctly.
 2. Make sure that the configuration file is correct. The server_address is the IP of the PC that runs the motion capture software, and local_address is the IP address of the PC that runs the mocap4r2.
 3. Launch the mocap4r2 nodes to start streaming motion capture data to ROS2:
