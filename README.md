@@ -26,18 +26,18 @@ mocap4r2 is a ROS2 package designed to integrate motion capture systems with ROS
 1. Ensure your motion capture cameras are set up and calibrated correctly.
 2. Make sure that the configuration file is correct. The server_address is the IP of the PC that runs the motion capture software, and local_address is the IP address of the PC that runs the mocap4r2.
 3. Launch the mocap4r2 nodes to start streaming motion capture data to ROS2:
-```
+```bash
 ros2 launch mocap4r2_optitrack_driver optitrack2.launch.py
 ```
 4. As the driver node is a lifecycle node, you should transition to activate:
-```
+```bash
 ros2 lifecycle set /mocap4r2_optitrack_driver_node activate
 ```
 For more information, visit the [mocap4r2](https://github.com/MOCAP4ROS2-Project/mocap4ros2_optitrack) GitHub repository.
 
 ## Build and Run Instructions
 
-```
+```bash
 cd ~/ros2_ws
 colcon build --packages-select orbslam3
 source install/setup.bash
