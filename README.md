@@ -39,7 +39,7 @@ For more information, visit the [mocap4r2](https://github.com/MOCAP4ROS2-Project
 
 ```bash
 cd ~/ros2_ws
-colcon build --packages-select orbslam3
+colcon build --packages-select orbslam3_ros2
 source install/setup.bash
 ros2 launch orbslam3 all_drones_orbslam3.launch.py
 ```
